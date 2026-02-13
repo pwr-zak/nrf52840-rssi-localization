@@ -1,3 +1,55 @@
+NRF52840 RSSI Localization – DepCoS 2026 Branch
+================================================
+
+This repository contains source code and sample measurement data for
+recording the Received Signal Strength Indicator (RSSI) in Bluetooth
+Low Energy (BLE).
+
+This branch contains a copy of the Zephyr repository extended with:
+
+* Minor modifications enabling control of BLE radio channels and access
+  to RSSI values together with the channel on which they were measured
+
+* ``depcos2026-tools`` – example software for BLE transmitter and BLE
+  receiver allowing controlled RSSI measurements and reporting together
+  with BLE channel information
+
+* ``depcos2026-data`` – sample RSSI measurements collected in experiments
+  simulating a two-path propagation scenario
+
+
+depcos2026-data – Measurement Description
+-----------------------------------------
+
+The provided dataset was collected in controlled experiments simulating
+a two-path propagation scenario with a path length difference of
+**5 meters** between the direct and reflected signal components.
+
+Experimental setup:
+
+* Hardware: nRF52840 modules (transmitter and receiver), spectrum analyser connected in parallel to the receiver
+* Transmit power: 8 dBm
+* Additional attenuation at transmitter: 20 dB inline attenuator
+* Transmission channels: all 40 BLE channels
+* Advertising mode: periodically switched between legacy and extended advertising
+
+
+Citation
+--------
+
+Feel free to use this code and dataset for research and educational
+purposes. If you use this repository in your work, please cite the following article:
+
+M. Nikodem, P. Patronik, A. Jeżak, M. Słabicki, "Towards More Reliable Signal Strength Based Indoor Localization in
+Bluetooth Low Energy", 21st International Conference on Dependability of Computer Systems (DepCoS-RELCOMEX), June 29 – July 3, 2026, Brunow, Poland.
+
+
+Below follows the original Zephyr README
+--------
+
+
+
+
 .. raw:: html
 
    <a href="https://www.zephyrproject.org">
