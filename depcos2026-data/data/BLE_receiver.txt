@@ -1,0 +1,989 @@
+﻿
+----- LOGGING STARTED (9.02.2026 09:27:50) ------------------------------------
+<<< Attempting to connect to COM8.  Use CTRL-X to cancel >>>
+<<< SimplySerial v0.9.0 connected via COM8 >>>
+Settings  : 9600 baud, no parity, 8 data bits, 1 stop bit, UTF-8 encoding, auto-connect on, echo off
+Device    : VID:2FE3 PID:0100
+Logfile   : setup33_1.txt (Mode = OVERWRITE)
+---
+
+Use CTRL-X to exit.
+
+*** Booting Zephyr OS build v4.1.0-2667-gc0fa82d3b9f9 ***
+sp: 20001380 reset: 000257b1
+Starting Extended Advertising Demo [Scanner]
+Application version: recv-extended-gd61621
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -49 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -49 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -49 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -57 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -46 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -49 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 31 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 30 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 23 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 14 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  1 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  5 rssi: -44 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 34 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 32 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  2 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 11 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 26 rssi: -46 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 29 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  4 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  0 rssi: -54 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 22 rssi: -55 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -53 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -46 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 20 rssi: -47 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 10 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 21 rssi: -49 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  3 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 12 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 17 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  8 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 19 rssi: -45 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 27 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 18 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 38 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 37 rssi: -50 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 39 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) (standard)
+chan_idx: 21 rssi: -51 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 16 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 25 rssi: -48 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 24 rssi: -52 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 28 rssi: -42 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 13 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  7 rssi: -41 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 35 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 33 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  9 rssi: -39 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx:  6 rssi: -43 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 36 rssi: -38 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+chan_idx: 15 rssi: -40 addr: EC:89:2D:6F:FC:E1 (random) tx_power:  127 primary phy:   1 secondary phy:   2
+
+<<< SimplySerial session terminated via CTRL-X >>>

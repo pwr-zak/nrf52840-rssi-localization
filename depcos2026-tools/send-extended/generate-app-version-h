@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Get the current git commit hash (shortened to 12 chars)
+GIT_HASH="$(git rev-parse --short=6 HEAD)"
+
+# Header file path
+HEADER_FILE="build/app-version.h"
+
+if [[ -n "$(git status --porcelain)" ]]; then
+    DIRTY="-dirty"
+else
+    DIRTY=""
+fi
+
+# Combine into version string with 'g' prefix
+VERSION="g${GIT_HASH}${DIRTY}"
+
+
+# Write the macro
+
+cat <<EOF > "$HEADER_FILE"
+#ifndef APP_VERSION_H
+#define APP_VERSION_H
+
+#define APP_GIT_HASH "$VERSION"
+
+#endif // APP_VERSION_H
+EOF
+
+echo "Generated $HEADER_FILE with GIT_HASH=\"$VERSION\""
+
+
+#echo "#ifndef APP_GIT_VERSION_H" > $HEADER_FILE
+#echo "#define APP_GIT_VERSION_H" >> $HEADER_FILE
+#echo "" >> $HEADER_FILE
+#echo "#define GIT_HASH \"$GIT_HASH\"" >> $HEADER_FILE
+#echo "" >> $HEADER_FILE
+#echo "#endif // APP_GIT_VERSION_H" >> $HEADER_FILE
+
+#echo "Header file '$HEADER_FILE' generated with GIT_HASH=$GIT_HASH"

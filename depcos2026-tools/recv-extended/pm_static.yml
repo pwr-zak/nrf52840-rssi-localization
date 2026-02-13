@@ -1,0 +1,4 @@
+flash_primary:
+  start: 0x00026000
+  size: 0x000d9000  # remaining space in 1MB flash
+
